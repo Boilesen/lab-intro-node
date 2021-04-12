@@ -35,8 +35,8 @@ class SortedList {
   }
 
   sum() {
-    const sum = this.items.reduce((acc, element) => {
-      return acc + element;
+    const sum = this.items.reduce((acc, e) => {
+      return acc + e;
     }, 0);
     return sum;
   }
